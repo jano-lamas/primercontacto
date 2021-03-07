@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto integrador con JavaScript</title>
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link id="theme" rel="stylesheet" type="text/css" href="css/green.css">
+
+
+
+    <!-- JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/moment.min.js"></script> 
+
+
+    
+    <!-- Mis Scripts -->
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+    
+    <div id="selector-theme">
+        <div id="toGreen"></div>
+        <div id="toRed"></div>
+        <div id="toBlue"></div>
+    </div>
+    <section id="global">
+
+        <!--Cabecera-->
+        <header>
+            <div id="logo">
+                Proyecto JS
+            </div>
+
+            <div class="clearfix">
+
+            </div>
+
+            <nav  id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="reloj.html">Reloj</a></li>
+                    <li><a href="about.html">Sobre mi</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!--Contenido-->
+        <section id="content">
+            <div id="box">
+                <!--cargar un reloj-->
+                <div id="reloj"></div>
+               
+
+            </div>
+
+            <aside id="sidebar">
+                <div id="about">
+                    <h4><span>Quien soy?</span></h4>
+                    <img src="img/caracol.jpg" />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptatem quae facere
+                         beatae totam sapiente illo aperiam.</p>
+                </div>
+
+                <div id="login">
+                    <h4><span>Identificate</span></h4>
+                    <form action="">
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="form_name"/>
+                        
+                        <label for="email">Correo</label>
+                        <input type="email" name="email" id="form_email"/>
+                        
+                        <label for="password">Contrasena</label>
+                        <input type="password" name="password" id="form_password"/>
+                        
+                        <input type="submit" value="Entrar" />
+                    </form>
+                </div>
+
+            </aside>
+
+            <div class="clearfix">
+
+            </div>
+        </section>
+    </section>
+    <footer>
+        <p id="curso" >Curso de JavaScript@</p> 
+        <a href="#" class="subir">Ir arriba</a>
+        <br>
+        <div class="wrapper">
+            <div class="icon instagram">
+                <div class="tooltip">Instagram</div>
+                <span><i class="fab fa-instagram"></i></span>
+            </div>
+    
+            <div class="icon github">
+                <div class="tooltip">Github</div>
+                <span><i class="fab fa-github"></i></span>
+            </div>
+    
+            <div class="icon telegram">
+                <div class="tooltip">Telegram</div>
+                <span><i class="fab fa-telegram"></i></span>
+            </div>
+    
+            <div class="icon youtube">
+                <div class="tooltip">Youtube</div>
+                <span><i class="fab fa-youtube"></i></span>
+            </div>
+    
+            <div class="icon linkedin">
+                <div class="tooltip">Linkedin</div>
+                <span><i class="fab fa-linkedin"></i></span>
+            </div>
+            
+            <div class="icon curriculum">
+                <div class="tooltip">Curriculum</div>
+                <span><i class="fab fa-google-drive"></i></span>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="https://kit.fontawesome.com/dd8c49730d.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
